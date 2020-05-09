@@ -183,6 +183,7 @@ position: fixed;
     left: 10px;
 }
 #nav-input:checked ~ #nav-content {
+	display: block;
 -webkit-transform: translateY(0px);
     transform: translateY(0px);
     -webkit-transition: all 500ms;
@@ -204,7 +205,6 @@ position: fixed;
   border-bottom-color:rgba(255,243,149,1.00);
 }
 #nav-content li a{
-	display: block;
     margin: 20px 10px 10px 10px;
 	font-size: 1.5rem; 
 }
