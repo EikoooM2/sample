@@ -106,8 +106,6 @@ font-family: 'Josefin Sans', sans-serif;
 	transform: scale(1, 1);}
 #nav-sp {
   position: relative;
-    margin-top: 17px;
-    margin-right: 12px;
 }
 
 /*チェックボックス等は非表示に*/
@@ -505,11 +503,11 @@ h1 {
     box-sizing: border-box;
     top: 0;
     z-index: 1001;
-    position: static;
+    position: fixed;
     -webkit-transition: 500ms;
     transition: 500ms;}
 h1 {
-    width: 80%;
+    idth: 85%;
 	}	
 	#contents{
     padding-top: 83px;}
