@@ -494,7 +494,9 @@ h1 {
     position: fixed;}
 h1 {
     width: 80%;
-}
+	}	
+	#contents{
+    padding-top: 83px;}
 	#contents-area {
     width: 90%;
     margin-left: auto;
