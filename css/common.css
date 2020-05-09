@@ -243,6 +243,7 @@ position: fixed;
 .fade-text span{
 	padding: 40px 10px 10px 10px;
 	display: block;
+	color: white;
 }
 /* contents-area */
 #contents-area{
