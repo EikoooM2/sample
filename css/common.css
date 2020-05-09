@@ -491,7 +491,8 @@ h1 {
 	display: none!important;
 }
 	#header-area{
-    position: fixed;}
+    position: fixed;
+	z-index: 99999;}
 h1 {
     width: 80%;
 	}	
