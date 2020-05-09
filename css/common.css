@@ -461,7 +461,10 @@ font-family: 'Josefin Sans', sans-serif;
 	img {
 	vertical-align: middle;}
 #header-area {
-	width: 100%;}
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
 h1 {
     width: 40%;
 }
