@@ -199,6 +199,8 @@ position: fixed;
     padding-left: 10px;
 	padding-right: 10px;
 }
+#nav-content ul{
+	    z-index: 99999;}
 #nav-content li{
     float: none;
     margin: 5px;
