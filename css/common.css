@@ -232,7 +232,6 @@ position: fixed;
 }
 .fade-text{	
   position: absolute;
- font-family: "M PLUS 1p"; 
 	letter-spacing: 1.5px;
   left: 0%;
 	bottom: 0%;
@@ -498,7 +497,7 @@ h1 {
 	
 	.fade-text span {
     padding: 5px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 	.slick-prev::before, .slick-next::before {
     font-size: 25px;
