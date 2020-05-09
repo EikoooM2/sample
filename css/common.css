@@ -41,8 +41,9 @@ li{
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
-	margin-top: 15px;
-	margin-bottom: 15px;
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 h1{
 	margin: 0px;
@@ -208,7 +209,8 @@ position: fixed;
 }
 #nav-content li a{
 	display: block;
-	margin: 10px 10px 5px 10px;
+    margin: 20px 10px 10px 10px;
+	font-size: 1.5rem;
 }
 #contents{
 	width: 1000px;
@@ -459,9 +461,7 @@ font-family: 'Josefin Sans', sans-serif;
 	img {
 	vertical-align: middle;}
 #header-area {
-	width: 98%;
-	margin-left: auto;
-	margin-right: auto;}
+	width: 100%;}
 h1 {
     width: 40%;
 }
@@ -490,6 +490,8 @@ h1 {
 .sp-only {
 	display: none!important;
 }
+	#header-area{
+    position: fixed;}
 h1 {
     width: 80%;
 }
