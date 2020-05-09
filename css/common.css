@@ -493,8 +493,21 @@ h1 {
 	display: none!important;
 }
 	#header-area{
-    /* position: fixed; */
-	z-index: 99999;}
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 1001;
+    position: static;
+    -webkit-transition: 500ms;
+    transition: 500ms;}
 h1 {
     width: 80%;
 	}	
