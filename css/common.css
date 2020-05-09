@@ -492,12 +492,8 @@ h1 {
     transform: translateY(0);
 -webkit-transition: 500ms;
     transition: 500ms;
-    -webkit-transform: translateY(-60px);
-    transform: translateY(-60px);
 position: fixed;
     z-index: 99;
-    -webkit-transition: 800ms;
-    transition: 800ms;
 	}
 h1 {
     width: 85%;
