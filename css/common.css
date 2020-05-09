@@ -488,17 +488,32 @@ h1 {
 	display: none!important;
 }
 h1 {
-    margin-left: 15px;
-    width: 70%;
+    width: 80%;
 }
 	#contents-area {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 	}
+	
 	.fade-text span {
     padding: 5px;
     font-size: 0.9rem;
+}
+	.slick-prev::before, .slick-next::before {
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+}
+.slick-prev, .slick-next {
+    width: 25px;
+    height: 25px;
+}
+.slick-prev {
+    left: 5px;
+}
+.slick-next {
+    right: 5px;
 }
 #contents-left {	
     overflow: hidden;
