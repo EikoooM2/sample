@@ -564,4 +564,8 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 }
+	#page_top {
+    right: 10px;
+    bottom: 40px;
+}
 }
