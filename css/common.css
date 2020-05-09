@@ -158,7 +158,7 @@ position: fixed;
     overflow-y: auto;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0 10 20px;
+    padding: 0px 10px 20px;
     background-color:rgba(255,255,255,1.00);
     font-weight: bold;
     -webkit-transition: all 500ms ease-out;
@@ -196,9 +196,9 @@ position: fixed;
     padding-bottom: 300px;
     padding-left: 10px;
 	padding-right: 10px;
+	display: block;
+	    z-index: 99999;
 }
-#nav-content ul{
-	    z-index: 99999;}
 #nav-content li{
     float: none;
     margin: 5px;
