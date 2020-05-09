@@ -498,6 +498,28 @@ position: fixed;
 h1 {
     width: 85%;
 	}	
+	nav {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* position: fixed; */
+    top: 0;
+    z-index: 1001;
+    position: static;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+}
 	#contents{
     padding-top: 83px;}
 	#contents-area {
