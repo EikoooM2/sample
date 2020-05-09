@@ -491,7 +491,9 @@ h1 {
 .sp-only {
 	display: none!important;
 }
-	#header-area{}
+	#header-area{
+		position: fixed;
+	}
 h1 {
     width: 85%;
 	}	
