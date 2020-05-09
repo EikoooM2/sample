@@ -106,8 +106,6 @@ font-family: 'Josefin Sans', sans-serif;
 	transform: scale(1, 1);}
 #nav-sp {
   position: relative;
-    margin-top: 17px;
-    margin-right: 12px;
 }
 
 /*チェックボックス等は非表示に*/
@@ -119,7 +117,9 @@ font-family: 'Josefin Sans', sans-serif;
 #nav-open {
   display: inline-block;
   width: 30px;
-  height: 22px;
+    height: 30px;
+    padding-right: 17px;
+    padding-top: 15px;
   vertical-align: middle;
 }
 
@@ -155,8 +155,13 @@ font-family: 'Josefin Sans', sans-serif;
 
 /*チェックが入ったらもろもろ表示*/
 
+#nav-input:checked ~ #nav-open {
+	padding-top: 13px;
+    padding-right: 18px;}
+	
 #nav-input:checked ~ #nav-open span{
     transform: translateY(12px) rotate(-45deg);
+	width: 28px;
 }
 #nav-input:checked ~ #nav-open span:before{
   opacity: 0;
@@ -165,6 +170,7 @@ font-family: 'Josefin Sans', sans-serif;
     transform: translateX(-10px) rotate(90deg);
     bottom: 0px;
     left: 10px;
+	width: 28px;
 }
 #nav-input:checked ~ #nav-content {
     margin-top: 30px;
