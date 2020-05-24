@@ -58,31 +58,43 @@
 </header>
 <!-- contents -->
 <div id="contents">
-  <div class="fade"> 
-	  <div class="fade-img"><img src="images/main01.jpg" alt="">
-    <div class="fade-text"><span>タンポポの花</span></div></div>
-	  <div class="fade-img">
-    <img src="images/main02.jpg" alt="">
-    <div class="fade-text"><span>たんぽぽの花</span></div></div>
-	  <div class="fade-img">
-    <img src="images/main03.jpg" alt="">
-    <div class="fade-text"><span>タンポポの花<br>
-タンポポの花</span></div></div>
-  </div>
-  <div id="contents-area"> 
+  <div class="pick-up-slide">
+	  <div class="slider multiple-items">
+				<div>
+					<h3><img src="images/main01.jpg" alt=""></h3>
+				</div>
+				<div>
+					<h3><img src="images/main02.jpg" alt=""></h3>
+				</div>
+				<div>
+					<h3><img src="images/main03.jpg" alt=""></h3>
+				</div>
+				<div>
+					<h3><img src="images/main01.jpg" alt=""></h3>
+				</div>
+				<div>
+					<h3><img src="images/main02.jpg" alt=""></h3>
+				</div>
+				<div>
+					<h3><img src="images/main03.jpg" alt=""></h3>
+				</div>
+				<div>
+					<h3><img src="images/main01.jpg" alt=""></h3>
+				</div>
+				<div>
+					<h3><img src="images/main02.jpg" alt=""></h3>
+				</div>
+				<div>
+					<h3><img src="images/main03.jpg" alt=""></h3>
+				</div>
+			</div>
+	  </div>
+    <div id="contents-area" class="second-page"> 
     <!-- left -->
     <div id="contents-left">
       <div class="contents-list">
-        <div class="contents-title">Pick up</div>
+        <div id="blog-title">Blog</div>
         <ul class="grid -col2">
-          <li class="grid__item"><div class="pick-up-box">
-			  <a href="">
-            <div class="pick-up-img"><div class="pick-up-photo">Photo</div><img src="images/main01.jpg" alt=""/></div>            
-            <div class="pick-up-text">
-				<div class="pick-up-title">タイトルです</div>						
-				写真です写真です写真です写真です写真です写真です写真です写真です写真です写真です写真です写真です写真です写真です写真です写真です写真です写真です写真です写真です</div>
-            </a><div class="pick-up-data">2020.05.14</div>
-			  </div></li>
           <li class="grid__item"><div class="pick-up-box"><a href="">
             <div class="pick-up-img">
             <div class="pick-up-blog">Blog</div><img src="images/main02.jpg" alt=""/></div>
@@ -92,10 +104,10 @@
             </a><div class="pick-up-data">2020.05.14</div></div></li>
           <li class="grid__item"><div class="pick-up-box"><a href="">
             <div class="pick-up-img">
-            <div class="pick-up-photo">Photo</div><img src="images/main01.jpg" alt=""/></div>
+            <div class="pick-up-blog">Blog</div><img src="images/main02.jpg" alt=""/></div>
             <div class="pick-up-text">
 				<div class="pick-up-title">タイトルです</div>	
-				写真です写真です写真です写真です写真です</div>			  
+				おすすめですおすすめですおすすめですおすすめですおすすめです</div>
             </a><div class="pick-up-data">2020.05.14</div></div></li>
           <li class="grid__item"><div class="pick-up-box"><a href="">
             <div class="pick-up-img">
@@ -107,7 +119,7 @@
             </a> <div class="pick-up-data">2020.05.14</div></div></li>
           <li class="grid__item"><div class="pick-up-box"><a href="">
             <div class="pick-up-img">
-            <div class="pick-up-recommend">Recommend</div><img src="images/milka.jpg" alt=""/></div>
+            <div class="pick-up-blog">Blog</div><img src="images/milka.jpg" alt=""/></div>
             <div class="pick-up-text">
 				<div class="pick-up-title">私の好きなチョコレート</div>	
 				ドイツのチョコと言えば、紫のパッケージに牛がいるmilka！そのmilkaの中でも私が好きなのはこれ！</div>
@@ -115,12 +127,9 @@
 			  <div class="pick-up-data">2020.05.14</div></div></li>
         </ul>
 		  
-        <div class="btn-list"><div class="btn-list-text">▽▽▽　一覧を見る ▽▽▽</div>
-          <ul>
-            <li class="btn-list-blog"><a href="">Blog</a></li>
-            <li class="btn-list-recommend"><a href="">Recommend</a></li>
-            <li class="btn-list-photo"><a href="">Photo</a></li>
-          </ul>
+		  <div class="btn-list">
+			  <div class="btn-prev"><a href="">前のページ</a></div>
+            <div class="btn-next"><a href="">次のページ</a></div>
         </div>
       </div>
     </div>
@@ -175,6 +184,7 @@
     <!-- right --> 
   </div>
 </div>
+</div>
 <!-- contents -->
 <!-- footer -->
 <footer>
@@ -215,20 +225,12 @@ $(function() {
 });
 </script>
 <script>
-$(document).ready(function () {
-
-	
-
-  //3.画像の切り替えをフェードにしたスライダー
-  $('.fade').slick({
-    autoplay: true, //自動再生
-    dots: true, //ドットのナビゲーションを表示
-    infinite: true, //スライドのループ有効化
-    speed: 1000, //切り替えのスピード（小さくすると速くなる）
-    fade: true, //フェードの有効化
-  });
-
+$('.multiple-items').slick({
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 1
 });
+
 </script>
 	<script>
 		$(function () {
